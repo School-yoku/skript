@@ -1,0 +1,5 @@
+on join:
+	set join message to "&r[&aあるふぁちゃん&r] &a%player%&rがサーバーに参加しました"
+ 
+on quit:
+	set quit message to "&r[&aあるふぁちゃん&r] &a%player%&rがサーバーから抜けました。またね！"
