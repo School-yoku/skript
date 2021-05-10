@@ -3,4 +3,5 @@ on chat:
         send "6cあなたは管理者によってミュートにされています。解除を要請する場合は /w でお願いします。"  
         cancel event
     else:
-	    broadcast "&9&l%player% &a>> &r%massage%"
+        broadcast "&9&l%player% &a>> &r%massage%"
+        cancel eenet
