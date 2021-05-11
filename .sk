@@ -1,35 +1,35 @@
 command /gohub:
     trigger:
-        execute by console "/mvtp %player world%"
-        execute by console "gamemode s %player%"
+        execute command console "/mvtp %player world%"
+        execute command console "gamemode s %player%"
         send "&cHUB&6へ移動中..." to player
 command /sv:
     trigger:
-        execute by console "/mvtp %player% survival"
-        execute by console "/gamemode s %player%"
+        execute command console "/mvtp %player% survival"
+        execute command console "/gamemode s %player%"
         send "&cサバイバル&6へ移動中..." to player
 command /crea:
     trigger:
-        execute by console "/mvtp %player% crea"
-        execute by console "/gamemode c %player%"
+        execute command console "/mvtp %player% crea"
+        execute command console "/gamemode c %player%"
         send "&cクリエイティブ&6へ移動中..." to player
 command /2p2r:
     trigger:
-        execute by console "/mvtp %player% 2p2r"
-        execute by console "/gamemode s %player%"
+        execute command console "/mvtp %player% 2p2r"
+        execute command console "/gamemode s %player%"
         send "&c2p2r&6へ移動中..." to player
 command /2p2rc:
     trigger:
-        execute by console "/mvtp %player% 2p2rc"
-        execute by console "/gamemode c %player%"
+        execute command console "/mvtp %player% 2p2rc"
+        execute command console "/gamemode c %player%"
         send "&c2p2rクリエイティブ&6へ移動中..." to player
 command /seichi:
     trigger:
-        execute by console "/mvtp %player% seichi"
-        execute by console "/gamemode s %player%"
-        send "&c2p2r狂気の整地鯖&6へ移動中..." to player
+        execute command console "/mvtp %player% seichi"
+        execute command console "/gamemode s %player%"
+        send "&c狂気の整地鯖&6へ移動中..." to player
 command /free:
     trigger:
-        execute by console "/mvtp %player% sensou"
-        execute by console "/gamemode c %player%"
+        execute command console "/mvtp %player% sensou"
+        execute command console "/gamemode c %player%"
         send "&c自由のクリエ&6へ移動中..." to player
